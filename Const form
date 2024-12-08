@@ -1,0 +1,14 @@
+const form = document.getElementById('word-form');
+const wordList = document.getElementById('word-list');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const word = document.getElementById('word').value;
+  const meaning = document.getElementById('meaning').value;
+
+  const li = document.createElement('li');
+  li.textContent = `${word} - ${meaning}`;
+  wordList.appendChild(li);
+ form.reset();
+});
