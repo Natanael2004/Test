@@ -1,0 +1,32 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>French SRS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>French SRS</h1>
+    <p>Melhore seu vocabulário de francês com um sistema simples e eficiente!</p>
+  </header>
+<main>
+    <h2>Adicione novas palavras</h2>
+    <form id="word-form">
+      <input type="text" id="word" placeholder="Palavra em francês" required>
+      <input type="text" id="meaning" placeholder="Significado" required>
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <h2>Palavras Salvas</h2>
+    <ul id="word-list"></ul>
+  </main>
+footer>
+    <p>Desenvolvido por João - Aprenda francês com eficiência!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
